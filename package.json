@@ -7,6 +7,6 @@
     },
     "dependencies": {
         "express": "^4.17.1",
-        "tiktok-scraper": "^2.5.3"
+        "tiktok-scraper": "^2.5.0" // Change this to the valid version
     }
 }
