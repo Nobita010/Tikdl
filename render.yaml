@@ -1,0 +1,9 @@
+version: 1
+services:
+  - type: web
+    name: Tiktok Video download
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node app.js
+    healthCheckPath: /
